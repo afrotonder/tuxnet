@@ -1,3 +1,5 @@
+    html {height: 100% ;
+    }
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: .9em;
@@ -5,6 +7,7 @@
         background-color: #BEBEBE;
         margin: 0;
         padding: 10px 20px 20px 20px;
+        height: 100% ;
     }
 
     samp {
@@ -32,36 +35,43 @@
         height:3em ;
     }
 
+    #description {
+        text-align: left !important;
+            /* white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis  */
+    }
+
     #tutorial-info {
         display: flex ;
         flex-direction: column;
-        justify-content: left ;
+        /* justify-content: left ; */
+        text-align: left !important;
         padding-left: 3.2em !important ;
-        /* white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis  */
+    
       
     }
 
     #tutorial-info > b {
         margin-bottom: .5em ;
+        /* margin-left: 2.5em; */
+        text-align: left;
     }
 
-    #tutorial-template {
-        position: fixed ;
-        width: 50% ;
-
-
+    .tutorial-template {
+        position: relative ; /*without this the tutorials stack on top of eachother and are not visible*/
+        width: 60% ;
+        display: block ;
+        flex-direction: column; 
         height: 15em ;
-
         border-radius: 25px ;
         padding: 1em 1em ;
         margin: 1em 5em 1em 5em ;
-
         background-color: white ;
+
     }
 
-    #tutorial-template > img {
+    .tutorial-template > img {
         width: 19em ;
         height: 15em ;
         float: left;
@@ -69,24 +79,33 @@
 
     }
 
-    #tutorial-template > h2 {
-        text-align: center;
-
+    .tutorial-template > h2 {
+        /* text-align: left; */
+        margin-right: -3em !important ;
     
     }
 
 
     #main-pannel {
-        width: 80% ;
+        width: 70% ;
         height: 100% ;
         float: left; 
     }
+
+    #main-pannel > h1 {
+        text-align: center ;
+        /* margin-left: -15em ; */
+    }
     #side-pannel {
-        width: 20% ;
+        width: 30% ;
         background-color: rgb(199, 168, 68) ;
         height: 100% ;
         float: right ;
-        
+        overflow: hidden ;
+    }
+
+    #side-pannel > h1 {
+        text-align: center ;
     }
     #main {
         left: 0 ;
@@ -96,12 +115,15 @@
         margin-top: 20px;
         background-color: gray ;
         position: fixed;
+        overflow: scroll ;
+
     }
 
     #title {
-        margin-left: .5em ;
+        /* margin-left: .5em ; */
         font-size: 32px ;
-        margin-top: 10px;
+        margin-top: 1.2em ;
+        font-style: italic ;
     }
 
     #logo {
@@ -109,6 +131,7 @@
         margin-left: 28px;
         width: 3em;
         height: 4em;
+        margin-top: 2em ;
     }
 
     .text {
