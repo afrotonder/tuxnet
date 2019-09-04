@@ -1,240 +1,251 @@
-    html {height: 100% ;
-    }
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: .9em;
-        color: #000000;
-        background-color: #BEBEBE;
-        margin: 0;
-        padding: 10px 20px 20px 20px;
-        height: 100% ;
-    }
+html {
+  height: 100%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: #000000;
+  background-color: #bebebe;
+  margin: 0;
+  padding: 10px 20px 20px 20px;
+  height: 100%;
+}
 
-    samp {
-        font-size: 1.3em;
-    }
+samp {
+  font-size: 1.3em;
+}
 
-    a {
-        color: #BEBEBE;
-        background-color: #BEBEBE;
-    }
+a {
+  color: #bebebe;
+  background-color: #bebebe;
+}
 
-    sup a {
-        text-decoration: none;
-    }
+sup a {
+  text-decoration: none;
+}
 
-    hr {
-        margin-left: 90px;
-        height: 1px;
-        color: #000000;
-        background-color: #000000;
-        border: none;
-    }
+hr {
+  margin-left: 90px;
+  height: 1px;
+  color: #000000;
+  background-color: #000000;
+  border: none;
+}
 
-    header {
-        height:3em ;
-    }
+header {
+  height: 3em;
+}
 
-    #description {
-        text-align: left !important;
-            /* white-space: nowrap;
+#actionButton {
+  margin-top: -18em ;
+  display: flex ;
+  flex-direction: column ;
+  width: 10em ;
+  background-color: #bebebe ;
+  float: right ;
+  height: 17em ;
+  border-radius: 25px ;
+  margin-right: 18em ;
+  
+}
+#attend {
+  height: 50% ;
+  border-top-left-radius: 25px ;
+  border-top-right-radius: 25px ;
+}
+#attend:hover {
+  background-color: greenyellow ;
+}
+#dismiss {
+  height: 50% ;
+  border-bottom-left-radius: 25px ;
+  border-bottom-right-radius: 25px ;
+}
+#dismiss:hover {
+  background-color: orange ;
+}
+
+#description {
+  text-align: left !important;
+  /* white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis  */
-    }
+}
 
-    #tutorial-info {
-        display: flex ;
-        flex-direction: column;
-        /* justify-content: left ; */
-        text-align: left !important;
-        padding-left: 3.2em !important ;
-    
-      
-    }
+#tutorial-info {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left ; */
+  text-align: left !important;
+  padding-left: 3.2em !important ;
+}
 
-    #tutorial-info > b {
-        margin-bottom: .5em ;
-        /* margin-left: 2.5em; */
-        text-align: left;
-    }
+#tutorial-info > b {
+  margin-bottom: 0.5em;
+  /* margin-left: 2.5em; */
+  text-align: left;
+}
 
-    .tutorial-template {
-        position: relative ; /*without this the tutorials stack on top of eachother and are not visible*/
-        width: 60% ;
-        display: block ;
-        flex-direction: column; 
-        height: 15em ;
-        border-radius: 25px ;
-        padding: 1em 1em ;
-        margin: 1em 5em 1em 5em ;
-        background-color: white ;
+.tutorial-template {
+  position: relative; /*without this the tutorials stack on top of eachother and are not visible*/
+  width: 60%;
+  display: block;
+  flex-direction: column;
+  height: 15em;
+  border-radius: 25px;
+  padding: 1em 1em;
+  margin: 1em 5em 1em 5em;
+  background-color: white;
+}
 
-    }
+.tutorial-template > img {
+  width: 19em;
+  height: 15em;
+  float: left;
+  border-radius: 25px !important;
+}
 
-    .tutorial-template > img {
-        width: 19em ;
-        height: 15em ;
-        float: left;
-        border-radius: 25px !important;
+.tutorial-template > h2 {
+  /* text-align: left; */
+  margin-right: -3em !important ;
+}
 
-    }
+#main-pannel {
+  width: 70%;
+  height: 100%;
+  float: left;
+  overflow: scroll;
+}
 
-    .tutorial-template > h2 {
-        /* text-align: left; */
-        margin-right: -3em !important ;
-    
-    }
+#main-pannel > h1 {
+  text-align: center;
+  /* display: inline; */
+  /* margin-left: -15em ; */
+}
+#side-pannel {
+  width: 30%;
+  background-color: rgb(199, 168, 68);
+  height: 100%;
+  float: right;
+  overflow: scroll;
+}
 
+#side-pannel > h1 {
+  text-align: center;
+}
+#main {
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  background-color: gray;
+  position: fixed;
+  overflow: scroll;
+}
 
-    #main-pannel {
-        width: 70% ;
-        height: 100% ;
-        float: left; 
-    }
+#title {
+  margin-left: 1.5em ;
+  margin-right: 1em ;
+  font-size: 32px;
+  margin-top: 10px;
+  position: fixed ;
+  font-style: italic;
+}
 
-    #main-pannel > h1 {
-        text-align: center ;
-        /* margin-left: -15em ; */
-    }
-    #side-pannel {
-        width: 30% ;
-        background-color: rgb(199, 168, 68) ;
-        height: 100% ;
-        float: right ;
-        overflow: hidden ;
-    }
+#logo {
+  /* margin-bottom: 10px; */
+  /* margin-left: 28px; */
+  width: 3em;
+  height: 4em;
+  /* margin-top: 2em; */
+  position: fixed;
+}
 
-    #side-pannel > h1 {
-        text-align: center ;
-    }
-    #main {
-        left: 0 ;
-        right: 0 ;
-        width: 100% ;
-        height: 100%;
-        margin-top: 20px;
-        background-color: gray ;
-        position: fixed;
-        overflow: scroll ;
+.text {
+  width: 80%;
+  margin-left: 90px;
+  line-height: 140%;
+}
 
-    }
+#menu {
+  position: fixed;
+  margin: 0em auto 0 auto;
+  display: flex;
+  overflow: hidden;
+  height: 9em;
+}
 
-    #title {
-        /* margin-left: .5em ; */
-        font-size: 32px ;
-        margin-top: 1.2em ;
-        font-style: italic ;
-    }
+#menu > li {
+  /* height: 30em ; */
+  font-size: 30px;
+  list-style-type: none;
+  width: 9em;
+  margin: 0.3em auto 0 auto;
+  text-align: center;
+}
 
-    #logo {
-        /* margin-bottom: 10px; */
-        margin-left: 28px;
-        width: 3em;
-        height: 4em;
-        margin-top: 2em ;
-    }
+#menu > li:hover {
+  background-color: gray;
+  line-height: 6em;
+  margin-top: -2em;
+}
 
-    .text {
-        width: 80%;
-        margin-left: 90px;
-        line-height: 140%;
-    }
+#logo-section {
+  float: left;
+  display: flex;
+}
+#menu-section {
+  margin-left: 10em; 
+  float: left;
+}
 
-    #menu {
-        position: fixed;
-        margin: 0em auto 0 auto ;
-        display: flex ;
-        overflow: hidden;
+/* MEDIA QUERIES */
 
-        /* justify-content: space-between ; */
-    }
-
-    #menu > li {
-        font-size: 30px ;
-        list-style-type: none ;
-        width: 9em ;
-        margin: .3em auto 0 auto ;
-        text-align: center ;
-    }
-
-    #menu > li:hover {
-        background-color: gray ;
-        line-height: 2.6em ;
-        margin-top: -.5em ;
-
-    }
-
-    #logo-section {
-        float: left ;
-        display: flex; 
-            }
-     #menu-section {
-        float: left ;
-    }
-
-
-    /* MEDIA QUERIES */
-    
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 
 @media (min-width: 1281px) {
-  
+}
 
-  }
-  
-  /* 
+/* 
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    
-  }
-  
-  /* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* 
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    
-    
-  }
-  
-  /* 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* 
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-    
-    
-  }
-  
-  /* 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
-    
-    
-  }
-  
-  /* 
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    
-    
-  }
+
+@media (min-width: 320px) and (max-width: 480px) {
+}
