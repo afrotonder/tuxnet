@@ -6,6 +6,8 @@
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link href="styles/main.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="styles/modal.css" media="screen" rel="stylesheet" type="text/css" />
+
 
 <title>TuxNet</title>
 
@@ -18,5 +20,11 @@
     <!-- main -->
     <?php require "includes/main.php"; ?>
 
+    <script src="scripts/modal.js"></script>
+
+
 </body>
+
+
 </html>
+
