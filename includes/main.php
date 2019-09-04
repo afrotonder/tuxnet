@@ -1,7 +1,11 @@
 <div id="main">
     <!-- left column -->
     <section id="main-pannel">
-        <h1>Speakers</h1>
+    <section id="main-pannel-header">
+        <h1 id="speakers">Speakers</h1>
+        <button id="add-speaker" >Add speaker</button>
+        <?php require 'modal.php' ; ?>
+    </section>
         
             <!-- actual logic for dynamically loading tuts -->
             <?php 
@@ -57,3 +61,4 @@
 
 
 </div>
+

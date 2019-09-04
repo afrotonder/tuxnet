@@ -36,6 +36,33 @@ header {
   height: 3em;
 }
 
+#add-speaker {
+  height: 3em ;
+  margin-top: -4.5em ;
+  width: 10em ;
+  margin-right: 1em ;
+  float: right !important;
+  background-color: green ;
+  font-size: 22px ;
+  border-radius: 25px ;
+}
+
+#speakers {
+  text-align: center ;
+}
+
+#add-speaker:active {
+  border-radius: 25px ;
+}
+
+#main-pannel-header {
+  font-size: 40px;
+
+  /* background-color: darkgoldenrod l */
+  /* display: flex ; */
+  /* justify-content: center ; */
+}
+
 #actionButton {
   margin-top: -18em ;
   display: flex ;
