@@ -1,0 +1,217 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .9em;
+        color: #000000;
+        background-color: #BEBEBE;
+        margin: 0;
+        padding: 10px 20px 20px 20px;
+    }
+
+    samp {
+        font-size: 1.3em;
+    }
+
+    a {
+        color: #BEBEBE;
+        background-color: #BEBEBE;
+    }
+
+    sup a {
+        text-decoration: none;
+    }
+
+    hr {
+        margin-left: 90px;
+        height: 1px;
+        color: #000000;
+        background-color: #000000;
+        border: none;
+    }
+
+    header {
+        height:3em ;
+    }
+
+    #tutorial-info {
+        display: flex ;
+        flex-direction: column;
+        justify-content: left ;
+        padding-left: 3.2em !important ;
+        /* white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis  */
+      
+    }
+
+    #tutorial-info > b {
+        margin-bottom: .5em ;
+    }
+
+    #tutorial-template {
+        position: fixed ;
+        width: 50% ;
+
+
+        height: 15em ;
+
+        border-radius: 25px ;
+        padding: 1em 1em ;
+        margin: 1em 5em 1em 5em ;
+
+        background-color: white ;
+    }
+
+    #tutorial-template > img {
+        width: 19em ;
+        height: 15em ;
+        float: left;
+        border-radius: 25px !important;
+
+    }
+
+    #tutorial-template > h2 {
+        text-align: center;
+
+    
+    }
+
+
+    #main-pannel {
+        width: 80% ;
+        height: 100% ;
+        float: left; 
+    }
+    #side-pannel {
+        width: 20% ;
+        background-color: rgb(199, 168, 68) ;
+        height: 100% ;
+        float: right ;
+        
+    }
+    #main {
+        left: 0 ;
+        right: 0 ;
+        width: 100% ;
+        height: 100%;
+        margin-top: 20px;
+        background-color: gray ;
+        position: fixed;
+    }
+
+    #title {
+        margin-left: .5em ;
+        font-size: 32px ;
+        margin-top: 10px;
+    }
+
+    #logo {
+        /* margin-bottom: 10px; */
+        margin-left: 28px;
+        width: 3em;
+        height: 4em;
+    }
+
+    .text {
+        width: 80%;
+        margin-left: 90px;
+        line-height: 140%;
+    }
+
+    #menu {
+        position: fixed;
+        margin: 0em auto 0 auto ;
+        display: flex ;
+        overflow: hidden;
+
+        /* justify-content: space-between ; */
+    }
+
+    #menu > li {
+        font-size: 30px ;
+        list-style-type: none ;
+        width: 9em ;
+        margin: .3em auto 0 auto ;
+        text-align: center ;
+    }
+
+    #menu > li:hover {
+        background-color: gray ;
+        line-height: 2.6em ;
+        margin-top: -.5em ;
+
+    }
+
+    #logo-section {
+        float: left ;
+        display: flex; 
+            }
+     #menu-section {
+        float: left ;
+    }
+
+
+    /* MEDIA QUERIES */
+    
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    
+    
+  }

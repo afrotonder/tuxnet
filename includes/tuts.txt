@@ -1,0 +1,4 @@
+('Linus Torvalds', '5:50pm', 'Campus Main Library', ' Penguin’s black and white plumage serves as camouflage while swimming. The black plumage on their back is hard to see from above, while the white plumage on their front looks like the sun reflecting off the surface of the water when seen from below.'),
+('Richard Stallman', '6:00pm', 'Campus Library', ' Penguin’s black and white plumage serves as camouflage while swimming. The black plumage on their back is hard to see from above, while the white plumage on their front looks like the sun reflecting off the surface of the water when seen from below.')
+
+              
