@@ -22,6 +22,17 @@
                 }
             ?>
         </ul>
+        <section id="menu-sm">
+            <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </section>
+
     </section>
 </header>
 
