@@ -5,3 +5,5 @@
 ('Jose Ortiz Ubarri'; 'http://www.hpcf.upr.edu/~cheo/cheo.jpg'; 'Sockets Security '; 'October 25, 2019'; 'UPR-RP Room A-123'; 'This talk will be about the importance about layers of security in socket connections. At the end you will each receive a free penguin.')
 ('The Great Pumpkin'; 'https://media.gettyimages.com/photos/pumpkin-against-white-background-picture-id763230841?s=612x612'; 'The Great Pumpkin'; 'Halloween '; 'Everywhere'; 'AAALL HAIIILL THE GREAT PUMKIN')
 ('John Carpenter'; 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvhpF8g-nHfaRtZIWP1Cju6pFRTiAXY_291HyNLo5jl_HcJbeg2A'; 'A Short Introduction to Christmas'; 'Chritmas'; 'North Pole'; 'Hey there ')
+('Stephen Falken'; 'https://vignette.wikia.nocookie.net/war-games/images/4/48/Stephen_Falken.jpg/revision/latest?cb=20130911193307'; 'WOPR & WW 3'; 'December 12, 2019, Noon'; 'Roswell, New Mexico'; 'WOPR')
+('The Great Pumpkin'; 'http://www.hpcf.upr.edu/~cheo/cheo.jpg'; 'Sockets Security '; 'October 25, 2019'; 'Roswell, New Mexico'; 'qwergqe5yu4yqet')
