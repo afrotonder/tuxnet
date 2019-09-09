@@ -38,24 +38,34 @@ header {
   height: 3em;
 }
 
+/********************* ADD SPEAKER  **********************/
 #add-speaker {
-  height: 3em ;
-  margin-top: -4.5em ;
-  width: 10em ;
-  margin-right: 1em ;
+  height: 3em;
+  margin-top: -4.5em;
+  width: 10em;
+  margin-right: 5.5em;
   float: right !important;
-  background-color: green ;
-  font-size: 22px ;
-  border-radius: 25px ;
+  background-color: green;
+  font-size: 22px;
+  border-radius: 25px;
 }
 
 #speakers {
-  text-align: center ;
+  text-align: center;
+  margin-right: 5em;
+}
+#add-speaker:hover {
+  border-radius: 25px;
+  background-color: yellowgreen;
 }
 
 #add-speaker:active {
-  border-radius: 25px ;
+  border-radius: 25px;
+  background-color: yellowgreen;
 }
+
+/********************* ADD SPEAKER  **********************/
+/*********************  MAIN PANNEL **********************/
 
 #main-pannel-header {
   font-size: 40px;
@@ -63,80 +73,6 @@ header {
   /* background-color: darkgoldenrod l */
   /* display: flex ; */
   /* justify-content: center ; */
-}
-
-#actionButton {
-  margin-top: -18em ;
-  display: flex ;
-  flex-direction: column ;
-  width: 10em ;
-  background-color: #bebebe ;
-  float: right ;
-  height: 17em ;
-  border-radius: 25px ;
-  margin-right: 18em ;
-  
-}
-#attend {
-  height: 50% ;
-  border-top-left-radius: 25px ;
-  border-top-right-radius: 25px ;
-}
-#attend:hover {
-  background-color: greenyellow ;
-}
-#dismiss {
-  height: 50% ;
-  border-bottom-left-radius: 25px ;
-  border-bottom-right-radius: 25px ;
-}
-#dismiss:hover {
-  background-color: orange ;
-}
-
-#description {
-  text-align: left !important;
-  /* white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis  */
-}
-
-#tutorial-info {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: left ; */
-  text-align: left !important;
-  padding-left: 3.2em !important ;
-}
-
-#tutorial-info > b {
-  margin-bottom: 0.5em;
-  /* margin-left: 2.5em; */
-  text-align: left;
-}
-
-.tutorial-template {
-  position: relative; /*without this the tutorials stack on top of eachother and are not visible*/
-  width: 60%;
-  display: block;
-  flex-direction: column;
-  height: 15em;
-  border-radius: 25px;
-  padding: 1em 1em;
-  margin: 1em 5em 1em 5em;
-  background-color: white;
-}
-
-.tutorial-template > img {
-  width: 19em;
-  height: 15em;
-  float: left;
-  border-radius: 25px !important;
-}
-
-.tutorial-template > h2 {
-  /* text-align: left; */
-  margin-right: -3em !important ;
 }
 
 #main-pannel {
@@ -151,6 +87,82 @@ header {
   /* display: inline; */
   /* margin-left: -15em ; */
 }
+
+#actionButton {
+  margin-top: -18em;
+  display: flex;
+  flex-direction: column;
+  width: 15.4em;
+  background-color: #bebebe;
+  float: right;
+  height: 17em;
+  border-radius: 25px;
+  margin-right: 8.5em;
+}
+#attend {
+  height: 50%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+#attend:hover {
+  background-color: greenyellow;
+}
+#dismiss {
+  height: 50%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  /* float: right; */
+}
+#dismiss:hover {
+  background-color: orange;
+}
+
+/*********************  MAIN PANNEL **********************/
+/*********************  TUTORIAL TEMPLATE **********************/
+
+#description {
+  text-align: left !important;
+}
+
+#tutorial-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left !important;
+  padding-left: 3.2em !important ;
+}
+
+#tutorial-info > b {
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+.tutorial-template {
+  position: relative; /*without this the tutorials stack on top of eachother and are not visible*/
+  width: 60%;
+  display: block;
+  flex-direction: column;
+  height: 15em;
+  border-radius: 25px;
+  padding: 1em 1em;
+  margin: 1em 5em 1em 8.5em;
+  background-color: white;
+}
+
+.tutorial-template > img {
+  width: 19em;
+  height: 15em;
+  float: left;
+  border-radius: 25px !important;
+}
+
+.tutorial-template > h2 {
+  margin-right: -3em !important ;
+}
+
+/*********************  TUTORIAL TEMPLATE **********************/
+
+/*********************  SIDE PANNEL **********************/
+
 #side-pannel {
   width: 30%;
   background-color: rgb(199, 168, 68);
@@ -162,6 +174,11 @@ header {
 #side-pannel > h1 {
   text-align: center;
 }
+
+/*********************  SIDE PANNEL **********************/
+
+/*********************  MAIN LAYOUT **********************/
+
 #main {
   left: 0;
   right: 0;
@@ -174,20 +191,17 @@ header {
 }
 
 #title {
-  margin-left: 1.5em ;
-  margin-right: 1em ;
+  margin-left: 1.5em;
+  margin-right: 1em;
   font-size: 32px;
   margin-top: 10px;
-  position: fixed ;
+  position: fixed;
   font-style: italic;
 }
 
 #logo {
-  /* margin-bottom: 10px; */
-  /* margin-left: 28px; */
   width: 3em;
   height: 4em;
-  /* margin-top: 2em; */
   position: fixed;
 }
 
@@ -206,8 +220,7 @@ header {
 }
 
 #menu > a {
-  /* height: 30em ; */
-  text-decoration: none ;
+  text-decoration: none;
   font-size: 30px;
   list-style-type: none;
   width: 9em;
@@ -226,16 +239,16 @@ header {
   display: flex;
 }
 #menu-section {
-  margin-left: 10em; 
+  margin-left: 10em;
   float: left;
 }
 
-/* #menu > li > a {
-  text-decoration: none;
+#menu-sm {
+  display: none ; 
+  visibility: hidden ;
 }
-#menu > li > a:hover {
-  background-color: gray ;
-} */
+
+/*********************  MAIN LAYOUT **********************/
 
 /* MEDIA QUERIES */
 
@@ -261,28 +274,74 @@ header {
   */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-}
+  header {
+    height: 8em !important;
+  }
 
-/* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
+  #menu-sm {
+    display: block ; 
+    visibility: visible ;
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-}
+    /* float: right ; AQUI ME QUEDE*/
+  }
 
-/* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
+  #menu {
+    display: none ; 
+    visibility: hidden ;
+  }
 
-@media (min-width: 481px) and (max-width: 767px) {
-}
+  #logo-section {
+    width: 12em ;
+  }
 
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
+  #menu-section {
+    width:0 ;
+  }
+  
+  #logo {
+    height: 9em ;
+    width: 6em ;
+  }
 
-@media (min-width: 320px) and (max-width: 480px) {
+  #title {
+    font-size: 6em ;
+    margin-left: 1em ;
+    margin-top: 15px ;
+    /* width:  */
+  }
+
+  #speakers {
+    margin-right: 2em;
+    font-size: 1.5em;
+  }
+
+  #side-pannel {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  #main-pannel {
+    width: 100%;
+  }
+
+  .tutorial-template {
+    margin-left: 1em;
+    width: 75%;
+    /* margin-right: 3em ; */
+    height: 20em;
+  }
+
+  #actionButton {
+    margin-top: -23em;
+    height: 22em;
+    width: 18%;
+    margin-right: 1em;
+    margin-left: 4em;
+  }
+
+  #add-speaker {
+    margin-right: 12px;
+    margin-top: -6em;
+    width: 8em;
+    height: 5em;
+  }
 }
