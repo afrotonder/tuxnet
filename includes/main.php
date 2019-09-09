@@ -20,7 +20,7 @@
             fclose($tuts_File);
 
             for($i = 0; $i < count($tutorials); $i++) {
-                $t = explode(",", $tutorials[$i]  ); // explodes in-line tuorial to array
+                $t = explode(";", strval($tutorials[$i])  ); // explodes in-line tuorial to array
                 // removes quotes from each value to be presented 
                 $name = preg_replace("/'/", "", $t[0]);
                 $image = preg_replace("/'/", "", $t[1]);
@@ -37,7 +37,7 @@
                             <b> By:".str_replace('(', "", $name)."</b>
                             <b> Time:".$time."</b>
                             <b> Location:".$location."</b>
-                            <b id='description'> Description:".$description."</b> 
+                            <b id='description'> Description:".str_replace(')', "", $description)."</b> 
                         </div>
                     </div>
                     
