@@ -9,6 +9,8 @@ body {
   margin: 0;
   padding: 10px 20px 20px 20px;
   height: 100%;
+  /* margin-left: 3em ;
+  margin-right: 3em ; */
 }
 
 samp {
@@ -203,8 +205,9 @@ header {
   height: 9em;
 }
 
-#menu > li {
+#menu > a {
   /* height: 30em ; */
+  text-decoration: none ;
   font-size: 30px;
   list-style-type: none;
   width: 9em;
@@ -212,7 +215,7 @@ header {
   text-align: center;
 }
 
-#menu > li:hover {
+#menu > a:hover {
   background-color: gray;
   line-height: 6em;
   margin-top: -2em;
@@ -226,6 +229,13 @@ header {
   margin-left: 10em; 
   float: left;
 }
+
+/* #menu > li > a {
+  text-decoration: none;
+}
+#menu > li > a:hover {
+  background-color: gray ;
+} */
 
 /* MEDIA QUERIES */
 

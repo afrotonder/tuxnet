@@ -8,10 +8,17 @@
     <section id="menu-section">
         <ul id="menu">
         <?php
-                $menuItems = ['Home', 'About Us', 'Hacking', 'Open Source', 'Free Software', "Liscenses"] ;
+                $menuItems = ['Wargames', 'Hacking', 'Open Source', 'Free Software', "Liscenses"] ;
+                $menuLinks = ['https://overthewire.org/wargames/', 
+                              'https://null-byte.wonderhowto.com/', 
+                              'https://opensource.com/resources/what-open-source', 
+                              'https://www.gnu.org/philosophy/free-software-intro.en.html', 
+                              'https://fosslawyers.org/permissive-foss-licenses-bsd-apache-mit/'] ; 
 
                 for($item = 0 ; $item < count($menuItems); $item++) {
-                    echo "<li>".$menuItems[$item]."</li>" ;
+                    // echo "<a href=".$menuLinks[$item]."><li>".$menuItems[$item]."</li></a>" ;
+                    echo "<a href='".$menuLinks[$item]."' target=_blank><li>".$menuItems[$item]."</li></a>" ;
+
                 }
             ?>
         </ul>
