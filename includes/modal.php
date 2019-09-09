@@ -10,7 +10,7 @@
       
 
         	  
-        <form id="add-speaker-form" action="includes/success.php" method="post">
+        <form id="add-speaker-form" action="" method="post">
             Speaker Name: <br>
             <input id="speaker" type="text" name="speaker" required><br>
             Image link: <br>
