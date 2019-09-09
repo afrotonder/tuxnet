@@ -20,9 +20,8 @@
     <!-- main -->
     <?php require "includes/main.php"; ?>
 
+    <!-- scripts -->
     <script src="scripts/modal.js"></script>
-
-
 </body>
 
 
