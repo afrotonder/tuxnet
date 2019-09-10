@@ -121,7 +121,21 @@ header {
 /*********************  TUTORIAL TEMPLATE **********************/
 
 #description {
-  text-align: left !important;
+  text-overflow: ellipsis;
+  width: 25em ;
+  overflow: hidden;
+  /* tryina make description look good */
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black ;
+
+
+  /* hides default textarea look */
+  border: hidden ;
+  resize: none;
+
+  /* Required for text-overflow to do anything */
+  white-space: normal; /* nowrap */
 }
 
 #tutorial-info {
