@@ -6,7 +6,7 @@
         <button id="add-speaker" >Add speaker</button>
         <?php require 'modal.php' ; ?>
     </section>
-        
+        <section id="speakers-pannel">
             <!-- actual logic for dynamically loading tuts -->
             <?php 
             $temp = [];
@@ -50,7 +50,7 @@
             }
             echo "<br/><br/><br/<br/>     ";
         ?>
-
+        </section>
     </section>
     <!-- right column -->
     <section id="side-pannel"> 
