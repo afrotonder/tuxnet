@@ -7,7 +7,7 @@ body {
   color: #000000;
   background-color: #bebebe;
   margin: 0;
-  padding: 10px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
   height: 100%;
   /* margin-left: 3em ;
   margin-right: 3em ; */
@@ -208,12 +208,13 @@ header {
   margin-left: 1.5em;
   margin-right: 1em;
   font-size: 32px;
-  margin-top: 10px;
+  margin-top: 15px;
   position: fixed;
   font-style: italic;
 }
 
 #logo {
+  margin-top: 3px ;
   width: 3em;
   height: 4em;
   position: fixed;
@@ -234,6 +235,7 @@ header {
 }
 
 #menu > a {
+  color: black ;
   text-decoration: none;
   font-size: 30px;
   list-style-type: none;
@@ -292,11 +294,55 @@ header {
     height: 8em !important;
   }
 
+  /**********************  mobile menu styles  **********************/
+
+  #main {
+    z-index: 0 ;
+  }
+  #myLinks {
+    display: none;
+    background-color: gray !important;
+    height: auto;
+    width: 100% ;
+    float: right ;
+    margin-top: 10em ;
+    position: relative;
+    z-index: 10 ;
+  }
+
+  #hamburger-menu {
+
+    margin-right: .5em ;
+    margin-top: .5em ;
+    color: black !important;
+    height: 17em ;
+    position: fixed ;
+    display: block ;
+    right: 0 ;
+    top: 0 ;
+
+  }
+
+
+  #myLinks > a {
+    color: black;
+    margin: 5px 0 5px 0 ;
+    /* height: 3em ; */
+  /* padding: 14px 16px; */
+  text-align: center ;
+  text-decoration: none!important;
+  font-size: 5em;
+  display: block;
+
+  }
+/* 
+  #myLinks > a:hover {
+    background-color: #b0b0b0 ;
+  } */
+
   #menu-sm {
     display: block ; 
     visibility: visible ;
-
-    /* float: right ; AQUI ME QUEDE*/
   }
 
   #menu {
@@ -304,17 +350,11 @@ header {
     visibility: hidden ;
   }
 
-  #logo-section {
-    width: 12em ;
-  }
-
-  #menu-section {
-    width:0 ;
-  }
+    /*********************  mobile menu styles  *********************/
   
   #logo {
     height: 9em ;
-    width: 6em ;
+    width: 7em ;
   }
 
   #title {
