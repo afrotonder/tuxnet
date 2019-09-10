@@ -42,8 +42,8 @@
                     </div>
                     
                     <div id='actionButton'>
-                        <button id='attend'> Attend </button>
-                        <button id='dismiss'> Dismiss </button>
+                        <button id='attend' value='".str_replace('(', "", $name)."'> Attend </button>
+                        <button id='dismiss' value='".str_replace('(', "", $name)."'> Dismiss </button>
                     </div>
                     
                     " ;
@@ -56,12 +56,12 @@
     <section id="side-pannel"> 
              <h1> Latest News </h1>
              <?php
-                $hn_API = "https://hacker-news.firebaseio.com/v0/item/" ;
+                // $hn_API = "https://hacker-news.firebaseio.com/v0/item/" ;
 
-                for($i = 0; $i < 50; $i++) {
-                    $res = file_get_contents($hn_API.str($i).'.json') ;
-                    echo $res ;
-                }
+                // for($i = 0; $i < 50; $i++) {
+                //     $res = file_get_contents($hn_API.str($i).'.json') ;
+                //     echo $res ;
+                // }
              ?>
 
     </section>
