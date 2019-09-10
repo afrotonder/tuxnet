@@ -37,7 +37,7 @@
                             <b> By:".str_replace('(', "", $name)."</b>
                             <b> Time:".$time."</b>
                             <b> Location:".$location."</b>
-                            <b id='description'> Description:".str_replace(')', "", $description)."</b> 
+                            <textarea readonly id='description'> Description:".str_replace(')', "", $description)."</textarea> 
                         </div>
                     </div>
                     
