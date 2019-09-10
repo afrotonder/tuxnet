@@ -7,6 +7,9 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link href="styles/main.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="styles/modal.css" media="screen" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 
 
 <title>TuxNet</title>
@@ -22,6 +25,8 @@
 
     <!-- scripts -->
     <script src="scripts/modal.js"></script>
+    <script src="scripts/menu.js"></script>
+
 </body>
 
 
