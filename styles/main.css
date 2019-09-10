@@ -182,7 +182,7 @@ header {
   background-color: rgb(199, 168, 68);
   height: 100%;
   float: right;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 #side-pannel > h1 {
@@ -280,6 +280,7 @@ header {
   #main-pannel {
     width: 70% ;
   }
+
 
 }
 
